@@ -25,7 +25,7 @@
     }
     
     UIView *frontView = [[window subviews] objectAtIndex:0];
-    id nextResponder = [frontView nextResponder];
+    id nextResponder = window.rootViewController;
     
     if ([nextResponder isKindOfClass:[UIViewController class]]) {
         UIViewController *vc = (UIViewController *)nextResponder;

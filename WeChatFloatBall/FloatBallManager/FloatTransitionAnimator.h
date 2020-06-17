@@ -28,10 +28,6 @@
                                  radius:(CGFloat)radius
                               operation:(UINavigationControllerOperation)operation;
 
-- (instancetype)initWithStartCenter:(CGPoint)center
-                             radius:(CGFloat)radius
-                          operation:(UINavigationControllerOperation)operation;
-
 /** 替换新动画，用于手势拖动到某个位置，执行缩小动画 */
 - (void)replaceAnimation;
 /** 继续执行动画，用于控制交互转场，手势结束个的动画执行 */
